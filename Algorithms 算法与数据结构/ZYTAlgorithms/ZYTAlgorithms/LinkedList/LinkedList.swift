@@ -17,7 +17,7 @@ public class ListNode {
     }
 }
 
-class Solution {
+class Solution_ReverseListNode {
     func reverseList(_ head: ListNode?) -> ListNode? {
         if head == nil {
             return nil

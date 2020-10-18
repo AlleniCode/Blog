@@ -16,6 +16,7 @@
 		73B295A2253C6D36008728C9 /* ZYTAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B295A1253C6D36008728C9 /* ZYTAlgorithmsTests.swift */; };
 		73B295AD253C6D36008728C9 /* ZYTAlgorithmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B295AC253C6D36008728C9 /* ZYTAlgorithmsUITests.swift */; };
 		73B295BF253C6DB2008728C9 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B295BE253C6DB2008728C9 /* LinkedList.swift */; };
+		73B295C8253C86ED008728C9 /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B295C7253C86ED008728C9 /* ReverseString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		73B295AC253C6D36008728C9 /* ZYTAlgorithmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYTAlgorithmsUITests.swift; sourceTree = "<group>"; };
 		73B295AE253C6D36008728C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73B295BE253C6DB2008728C9 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		73B295C7253C86ED008728C9 /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				73B2958A253C6D34008728C9 /* AppDelegate.swift */,
 				73B2958C253C6D34008728C9 /* SceneDelegate.swift */,
 				73B2958E253C6D34008728C9 /* ViewController.swift */,
+				73B295C6253C847F008728C9 /* String */,
 				73B295BD253C6D9A008728C9 /* LinkedList */,
 				73B29590253C6D34008728C9 /* Main.storyboard */,
 				73B29593253C6D35008728C9 /* Assets.xcassets */,
@@ -137,6 +140,14 @@
 				73B295BE253C6DB2008728C9 /* LinkedList.swift */,
 			);
 			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		73B295C6253C847F008728C9 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				73B295C7253C86ED008728C9 /* ReverseString.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B295C8253C86ED008728C9 /* ReverseString.swift in Sources */,
 				73B2958F253C6D34008728C9 /* ViewController.swift in Sources */,
 				73B2958B253C6D34008728C9 /* AppDelegate.swift in Sources */,
 				73B295BF253C6DB2008728C9 /* LinkedList.swift in Sources */,

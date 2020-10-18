@@ -31,7 +31,12 @@ class ZYTAlgorithmsTests: XCTestCase {
     }
 
     func testReverseLinkedList() {
-        let so = Solution()
+        let so = Solution_ReverseListNode()
+        so.test()
+    }
+    
+    func testReverseString() {
+        let so = Solution_ReverseString()
         so.test()
     }
 }
