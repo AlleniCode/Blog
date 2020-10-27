@@ -30,13 +30,33 @@ class ZYTAlgorithmsTests: XCTestCase {
         }
     }
 
+    // 反转链表
     func testReverseLinkedList() {
         let so = Solution_ReverseListNode()
         so.test()
     }
     
+    // 反转字符串
     func testReverseString() {
         let so = Solution_ReverseString()
+        so.test()
+    }
+    
+    // 冒泡排序
+    func testBubbleSort() {
+        let so = Solution_BubbleSort()
+        so.test()
+    }
+    
+    // 选择排序
+    func testSelectionSort() {
+        let so = Solution_SelectionSort()
+        so.test()
+    }
+    
+    // 插入排序
+    func testInsertionSort() {
+        let so = Solution_InsertionSort()
         so.test()
     }
 }
